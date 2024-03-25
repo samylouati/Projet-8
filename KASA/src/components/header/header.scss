@@ -2,6 +2,7 @@ header {
     padding: 50px 50px 45px;
     display: flex;
     justify-content: space-between;
+    
     img {
         width: 210px;
         height: 70px;        
@@ -10,6 +11,7 @@ header {
     nav {
         display: flex;
         align-items: center;
+
         a {
             color: black;
             font-family: Montserrat;

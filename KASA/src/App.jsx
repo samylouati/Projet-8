@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import  { Header } from './components/header/header'
 import { Footer } from './components/footer/footer'
+import { Banner } from './layouts/banner/banner'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <Header />
         <main>
-
+          <Banner />
         </main>   
       <Footer />
     </>
