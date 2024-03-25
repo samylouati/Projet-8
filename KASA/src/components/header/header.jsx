@@ -1,4 +1,4 @@
-import LOGO from '../../assets/Images/LOGO.png' //je met la source de l'image dans une variable pour la changer plus facilement
+import LOGO from '../../assets/Images/LOGO_header.png' //je met la source de l'image dans une variable pour la changer plus facilement
 
 export function Header () {
     return (
