@@ -1,9 +1,17 @@
-header {
+header {  
+    @media (max-width: 700px) {
+            padding: 20px;
+        }
+    
     padding: 50px 50px 45px;
     display: flex;
     justify-content: space-between;
     
     img {
+        @media (max-width: 700px) {
+            width: 145px;
+            height: 47px;
+        }
         width: 210px;
         height: 70px;        
     }
@@ -13,12 +21,20 @@ header {
         align-items: center;
 
         a {
+            @media (max-width: 700px) {
+                font-size: 12px;
+                text-align: center;
+            }
             color: black;
             font-family: Montserrat;
             font-size: 24px;
             font-weight: 500;
             padding-right: 20px;
             text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff6060;
         }
 
         .active{
