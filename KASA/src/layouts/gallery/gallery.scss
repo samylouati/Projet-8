@@ -1,6 +1,9 @@
 .gallery {
     @media (max-width: 700px) {
-        margin: 22px 20px 27px;     
+        background-color: white;
+        flex-direction: column;
+        padding: 22px 20px;
+        margin: 0px;
     }
     margin: 50px 50px 50px;
     background: #F6F6F6;
