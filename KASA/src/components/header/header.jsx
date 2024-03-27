@@ -7,8 +7,8 @@ export function Header () {
         <header>
             <h1><img src={LOGO} alt="" /></h1>
             <nav>
-                <a href="../../index.html">Accueil</a>
-                <a href="">A propos</a>
+                <a href="/">Accueil</a>
+                <a href="/about">A propos</a>
             </nav>
         </header>
     );
