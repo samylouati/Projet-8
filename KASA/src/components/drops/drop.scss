@@ -1,18 +1,21 @@
 .dropContainer {
     @media (max-width: 700px) {
-        padding-bottom: 15px;
+        padding: 0px 20px;
+        margin-top: 20px;
     }
-    padding-bottom: 40px;
+    padding: 20px 50px;
 
     .drops {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        margin: 10px 0px 20px;
+        border-radius: 5px;
+        overflow: hidden;
 
         .drops_content {
             @media (max-width: 700px) {
                 height: 30px;
-                margin: 5px 20px;
+                margin: 0px;
                 padding: 0px;
             }
             display: flex;
@@ -20,8 +23,7 @@
             text-align: center;
             align-items: center;
             background-color: #ff6060;
-            margin: 30px 50px;
-            border-radius: 5px;            
+            border-radius: 5px;  
 
             h2 {
                 @media (max-width: 700px) {
@@ -48,21 +50,14 @@
         }
 
         p {
-        @media (max-width: 700px) {
-               margin-left: 40px;
-            }
+            position: relative;
+            z-index: -1000;
             font-family: Montserrat;
             font-size: 18px;
             font-weight: 700;
-            margin-left: 65px;
-        }
-        
-        .visible {
-            display: block;
-        }
-
-        .hidden {
-            display: none;
+            background-color: #F6F6F6;
+            margin: 0px 0px 10px;
+            border-radius: 0px 0px 10px 10px;
         }
     }
 }
