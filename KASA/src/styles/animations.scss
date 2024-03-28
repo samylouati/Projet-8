@@ -3,6 +3,11 @@
     transition: transform 0.5s ease;
 }
 
+.rotate180 {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+
 .visible {
     opacity: 1;
     transition: opacity 0.5s ease;
