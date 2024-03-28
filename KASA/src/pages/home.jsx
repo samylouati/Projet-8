@@ -1,8 +1,8 @@
 import React from "react"
-import { Header } from "../components/header/header"
-import { Banner } from "../layouts/banner/banner"
+import { Header } from "../layouts/header/header"
+import { Banner } from "../components/banner/banner"
 import { Gallery } from "../layouts/gallery/gallery"
-import { Footer } from "../components/footer/footer"
+import { Footer } from "../layouts/footer/footer"
 import ImgHome from '../assets/Images/Bannière.png' //pour l'image de la banniere 
 
 export function Home() {

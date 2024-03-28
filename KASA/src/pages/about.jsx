@@ -1,7 +1,7 @@
 import React from "react"
-import { Header } from "../components/header/header"
-import { Banner } from "../layouts/banner/banner"
-import { Footer } from "../components/footer/footer"
+import { Header } from "../layouts/header/header"
+import { Banner } from "../components/banner/banner"
+import { Footer } from "../layouts/footer/footer"
 import { Drops } from "../components/drops/drop"
 import ImgAbout from '../assets/Images/Bannière_about.png' //Pour la page About
 
