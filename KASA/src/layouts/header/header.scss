@@ -15,30 +15,4 @@ header {
         width: 210px;
         height: 70px;        
     }
-
-    nav {
-        display: flex;
-        align-items: center;
-
-        a {
-            @media (max-width: 700px) {
-                font-size: 12px;
-                text-align: center;
-            }
-            color: black;
-            font-family: Montserrat;
-            font-size: 24px;
-            font-weight: 500;
-            padding-right: 20px;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #ff6060;
-        }
-
-        .active{
-            text-decoration: underline;
-        }
-    }
 }

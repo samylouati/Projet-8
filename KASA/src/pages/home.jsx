@@ -7,7 +7,7 @@ import ImgHome from '../assets/Images/Bannière.png' //pour l'image de la bannie
 
 export function Home() {
     return (
-        <div className="Home">
+        <div>
             <Header />
             <Banner image={ImgHome}/>
             <Gallery />

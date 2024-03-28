@@ -8,7 +8,7 @@ import ImgAbout from '../assets/Images/Bannière_about.png' //Pour la page About
 
 export function About() {
     return (
-        <div className="About">
+        <div>
             <Header />
             <Banner image={ImgAbout}/>
             <section className="dropContainer">
